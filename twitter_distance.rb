@@ -22,5 +22,3 @@ while cursor != 0 do
  (follower_ids << followers.to_h[:ids]).flatten!
  sleep(2)
 end
-
-puts follower_ids
